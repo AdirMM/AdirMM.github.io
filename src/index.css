@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Define custom fonts */
+:root {
+  --font-primary: 'Space Grotesk', sans-serif;
+  --font-secondary: 'Work Sans', sans-serif;
+}
+
+/* Apply fonts to specific elements */
+body {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  color: black;
+  background-color: white;
+
+  /* Improve text readability */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.header {
+  font-family: var(--font-secondary);
+}
+
